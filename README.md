@@ -1,19 +1,6 @@
-Description
+Description (中文说明见[README.zh_CN.md](https://github.com/seanliang/Codecs26/blob/master/README.zh_CN.md))
 ------------------
-Due to the limitation of embedded Python with Sublime Text 2, [ConvertToUTF8](https://github.com/seanliang/ConvertToUTF8) might not work properly.
-
-To solve this problem, you can try:
-
-(1) Install Codecs26 plugin. This plugin is compiled under 64bit Ubuntu, I'm not sure if it works with other Linux distro or 32-bit platforms.
-
-(2) If the above method doesn't work, you will have to install Python 2.6 manually with these commands:
-<code>  
-sudo add-apt-repository ppa:fkrull/deadsnakes  
-sudo apt-get update  
-sudo apt-get install python2.6  
-sudo ln -s /usr/lib/python2.6 /[PATH_TO_ST2]/lib  
-</code>
-** Note: PATH_TO_ST2 means the installation location of Sublime Text 2 **
+Due to the limitation of embedded Python with Sublime Text 2, [ConvertToUTF8](https://github.com/seanliang/ConvertToUTF8) might not work properly. You can install this plugin to solve the problem.
 
 I'm working on making ConvertToUTF8 support both Sublime Text 2 and 3 currently. If this plugin is useful for you, you might want to buy me a cup of coffee to keep me fresh. Thanks for everyone's help! :)
 
@@ -24,7 +11,7 @@ Installation
 ------------------
 Using [Package Control](http://wbond.net/sublime_packages/package_control) to find, install and upgrade *Codecs26* is the recommended method to install this plug-in.
 
-Otherwise, you can download this repository as a zip file, unzip it, and rename the new folder to *Codecs26*, then move this folder to *Packages* folder of Sublime Text (You can find the *Packages* folder by clicking "Preferences > Browse Packages" menu entry in Sublime Text).
+Otherwise, you can download this repository as a zip file from one of the branchs (master for 64bit, x32 for 32bit) which matchs your platform. Unzip the archive and rename the new folder to *Codecs26*, then move this folder to *Packages* folder of Sublime Text (You can find the *Packages* folder by clicking "Preferences > Browse Packages" menu entry in Sublime Text).
 
 Contact me
 ------------------
